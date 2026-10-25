@@ -10,13 +10,19 @@ asked for.
 
 ## What is here
 
-Organization defaults that GitHub reads, such as a pull request template, and
-the policies they link to. [README.md](README.md) says what the repository is
-for.
+Organization defaults that GitHub reads, and the policies they link to:
+
+| Path | What it is |
+| --- | --- |
+| [PULL_REQUEST_TEMPLATE.md](PULL_REQUEST_TEMPLATE.md) | The pull request template of every repository without its own |
+| [AI_POLICY.md](AI_POLICY.md) | How the vcs-python projects treat AI tools, which the template links |
+| [README.md](README.md) | What the repository is for |
 
 ## Which policy applies
 
 - Documentation, user-facing text, and commit messages: [WRITING.md](WRITING.md)
+- Use of AI tools, issues, and pull requests from contributors:
+  [AI_POLICY.md](AI_POLICY.md)
 
 Each file is the single home for its subject.
 
